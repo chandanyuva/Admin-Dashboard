@@ -1,17 +1,218 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Admin Dashboard</title>
-    <link rel="stylesheet" href="./styles/reset.css">
-    <link rel="stylesheet" href="./styles/style.css">
-</head>
-<body>
-    <div class="container">
-        <div class="header"></div>
-        <div class="side-bar"></div>
-        <div class="main-content-container"></div>
-    </div>
-</body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Admin Dashboard</title>
+        <link rel="stylesheet" href="./styles/style.css" />
+        <link rel="stylesheet" href="./styles/reset.css" />
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="header-upper">
+                    <a
+                        ><img
+                            src="./styles/ui/header-upper-search.svg"
+                            width="30rem"
+                            alt="search-icon"
+                    /></a>
+                    <input type="search" />
+                    <a
+                        ><img
+                            src="./styles/ui/header-upper-notification.svg"
+                            width="30rem"
+                            alt="notification-bell"
+                    /></a>
+                    <img src="./imgs/user-pp.png" width="45rem" alt="user-pp" />
+                    <p>YUVA</p>
+                </div>
+                <div class="header-lower">
+                    <img src="./imgs/user-pp.png" width="70px" alt="user-pp" />
+                    <div class="user-info">
+                        <p>Hi there,</p>
+                        <p class="user-name">YUVA</p>
+                    </div>
+                    <button type="button">New</button>
+                    <button type="button">Upload</button>
+                    <button type="button">Share</button>
+                </div>
+            </div>
+            <div class="side-bar">
+                <div class="side-bar-title">
+                    <img
+                        src="./styles/ui/side-bar-title-grid.svg"
+                        width="30em"
+                    />
+                    <p>Dashboard</p>
+                </div>
+                <div class="side-bar-nav1">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <img src="./styles/ui/home.svg" alt="home" />
+                                <p>Home</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./styles/ui/user.svg" alt="user" />
+                                <p>Profile</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img
+                                    src="./styles/ui/message-square.svg"
+                                    alt="messages"
+                                />
+                                <p>Messages</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img
+                                    src="./styles/ui/clock.svg"
+                                    alt="history"
+                                />
+                                <p>History</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./styles/ui/file.svg" alt="tasks" />
+                                <p>Tasks</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img
+                                    src="./styles/ui/users.svg"
+                                    alt="communites"
+                                />
+                                <p>Communities</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="side-bar-nav2">
+                    <ul>
+                        <li>
+                            <a href="">
+                                <img src="./styles/ui/settings.svg" alt="" />
+                                <p>Settings</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./styles/ui/help-circle.svg" alt="" />
+                                <p>Support</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <img src="./styles/ui/shield.svg" alt="" />
+                                <p>Privacy</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="main-content-container">
+                <div class="mcc-projects">
+                    <div class="project-title">Your Projects</div>
+                    <div class="project-cards">
+                        <div class="card">
+                            <p class="title">title</p>
+                            <p class="content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum odio voluptatem facilis voluptatibus praesentium minima sit? Tempore sunt ipsam accusantium, quaerat, debitis incidunt deleniti vitae error reiciendis dolores dolor suscipit!</p>
+                            <div class="icons">
+                                <a href=""><img src="./styles/ui/github.svg" alt="git"></a>
+                                <a href=""><img src="./styles/ui/save.svg" alt="save"></a>
+                                <a href=""><img src="./styles/ui/link.svg" alt="link"></a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <p class="title">title</p>
+                            <p class="content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum odio voluptatem facilis voluptatibus praesentium minima sit? Tempore sunt ipsam accusantium, quaerat, debitis incidunt deleniti vitae error reiciendis dolores dolor suscipit!</p>
+                            <div class="icons">
+                                <a href=""><img src="./styles/ui/github.svg" alt="git"></a>
+                                <a href=""><img src="./styles/ui/save.svg" alt="save"></a>
+                                <a href=""><img src="./styles/ui/link.svg" alt="link"></a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <p class="title">title</p>
+                            <p class="content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum odio voluptatem facilis voluptatibus praesentium minima sit? Tempore sunt ipsam accusantium, quaerat, debitis incidunt deleniti vitae error reiciendis dolores dolor suscipit!</p>
+                            <div class="icons">
+                                <a href=""><img src="./styles/ui/github.svg" alt="git"></a>
+                                <a href=""><img src="./styles/ui/save.svg" alt="save"></a>
+                                <a href=""><img src="./styles/ui/link.svg" alt="link"></a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <p class="title">title</p>
+                            <p class="content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum odio voluptatem facilis voluptatibus praesentium minima sit? Tempore sunt ipsam accusantium, quaerat, debitis incidunt deleniti vitae error reiciendis dolores dolor suscipit!</p>
+                            <div class="icons">
+                                <a href=""><img src="./styles/ui/github.svg" alt="git"></a>
+                                <a href=""><img src="./styles/ui/save.svg" alt="save"></a>
+                                <a href=""><img src="./styles/ui/link.svg" alt="link"></a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <p class="title">title</p>
+                            <p class="content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum odio voluptatem facilis voluptatibus praesentium minima sit? Tempore sunt ipsam accusantium, quaerat, debitis incidunt deleniti vitae error reiciendis dolores dolor suscipit!</p>
+                            <div class="icons">
+                                <a href=""><img src="./styles/ui/github.svg" alt="git"></a>
+                                <a href=""><img src="./styles/ui/save.svg" alt="save"></a>
+                                <a href=""><img src="./styles/ui/link.svg" alt="link"></a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <p class="title">title</p>
+                            <p class="content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum odio voluptatem facilis voluptatibus praesentium minima sit? Tempore sunt ipsam accusantium, quaerat, debitis incidunt deleniti vitae error reiciendis dolores dolor suscipit!</p>
+                            <div class="icons">
+                                <a href=""><img src="./styles/ui/github.svg" alt="git"></a>
+                                <a href=""><img src="./styles/ui/save.svg" alt="save"></a>
+                                <a href=""><img src="./styles/ui/link.svg" alt="link"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="mcc-announcements">
+                    <div class="announcements-title">Announcements</div>
+                    <div class="announcements-card">
+                        <div class="card-content">
+                            <p class="title">Title</p>
+                            <p class="content">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="card-content">
+                            <p class="title">Title</p>
+                            <p class="content">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="card-content">
+                            <p class="title">Title</p>
+                            <p class="content">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="mcc-trending">
+                    <div class="trending-title">Trending</div>
+                    <div class="trending-card">
+                        <div class="card-content">
+                            <p class="title">Title</p>
+                            <p class="content">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="card-content">
+                            <p class="title">Title</p>
+                            <p class="content">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="card-content">
+                            <p class="title">Title</p>
+                            <p class="content">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
